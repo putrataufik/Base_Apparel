@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Apparel</title>
+    <!-- fix -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text__content">
+      <header>
+        <div class="logo">
+          <img src="./images/logo.svg" alt="Base Apparel Logo">
+        </div>
+       
+
+        <div class="featured__image__mobile">
+          <img src="./images/hero-mobile.jpg" alt="Hero Image">
+        </div>
+      </header>
+
+      <main>
+        <article>
+          <h1><span>we're</span> <br> coming <br> soon</h1>
+
+          <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </article>
+      </main>
+
+      <footer>
+        <form action="#">
+          <div>
+            <input type="email" name="user__email" id="user__email" placeholder="Email Address">
+
+            <img src="./images/icon-error.svg" alt="Error icon" class="error__icon">
+
+            <button type="submit">
+              <img src="./images/icon-arrow.svg" alt="Arrow Icon">
+            </button>
+          </div>
+          <p class="success__message">Email is valid!</p>
+          <p class="error__message">Please enter a valid email address</p>
+        </form>
+      </footer>
+
+    </div>
+
+
+
+
+    <!-- this div will have a display: none on small screens and will have a display: block on screens larger than 768px -->
+    <div class="featured__image__desktop">
+      <img src="./images/hero-desktop.jpg" alt="Hero Image">
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
